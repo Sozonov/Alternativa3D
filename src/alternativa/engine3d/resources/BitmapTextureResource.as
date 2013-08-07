@@ -46,7 +46,7 @@ package alternativa.engine3d.resources {
         /**
          * Uploads textures from <code>BitmapData</code> to GPU.
          */
-		public function BitmapTextureResource(data:BitmapData, resizeForGPU:Boolean = false, applyFilter:Boolean = true) {
+		public function BitmapTextureResource(data:BitmapData, resizeForGPU:Boolean = false, applyFilter:Boolean = false) {
 			this.data = data;
 			this.resizeForGPU = resizeForGPU;
 			this.applyFilter = applyFilter;
