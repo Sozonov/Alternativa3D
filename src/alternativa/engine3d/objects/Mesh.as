@@ -146,6 +146,16 @@ package alternativa.engine3d.objects {
 			return _surfaces[index];
 		}
 
+        /**
+         * Returns surface by index.
+         *
+         * @param index  Index.
+         * @return  Surface with given index.
+         */
+        public function getSurface(index:int):Surface {
+            return _surfaces[index];
+        }
+
 		/**
 		 * Number of surfaces.
 		 */
